@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruoxi's Homepage</title>
+  </head>
+  <body class="bg-frag-l">
+    <!-- <img id="bg-img" src="/public/rainbow.webp" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-none w-full h-full" /> -->
+    <div id="top-lane" class="sect-lane py-36 bg-frag">
+      <h1 class="text-4xl text-center pb-8 font-serif font-light">Ruoxi Shi 时若曦 / Eliphat</h1>
+      <p class="anchor-inline font-serif text-center text-lg pb-8">
+        <a href="#research-lane">Research</a>
+        ·
+        <a href="#graphics-lane">Graphics</a>
+        ·
+        <a href="#engineering-lane">Engineering</a>
+        ·
+        <a href="#music-lane">Music</a>
+      </p>
+    <!-- </div>
+    <div id="about-lane" class="sect-lane bg-frag"> -->
+      <div class="sect-box">
+        <!-- <h1 class="subhead">ME</h1> -->
+        <div class="paragraph">
+          <p>
+            I am currently a research assistant at Prof. Hao Su's lab at UCSD.
+            I obtained my B.Eng. in Artificial Intelligence at SJTU, advised by Prof. Cewu Lu.
+            I had an internship at Microsoft Research Asia advised by Dr. Dongsheng Li and Caihua Shan in 2021,
+            and at Stanford advised by Prof. Leonidas Guibas in 2022.
+          </p>
+          <p class="pt-2">
+            The world is fantastic.
+            I like to get around and explore random things that pique my interest,
+            in which process I build my mindset and skills.
+            Find me on any medium if you want to talk!
+          </p>
+          <p class="pt-2 italic">
+            email r5shi at ucsd dot edu
+          </p>
+          <p class="pt-2 anchor-inline text-sm">
+            <a href="https://github.com/eliphatfs">Github</a>
+            <a href="https://scholar.google.com/citations?user=Z7zLvdkAAAAJ&hl=en">Google Scholar</a>
+            <a href="https://blog.flandre.info">Blog (Chinese)</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="research-lane" class="sect-lane">
+      <div class="sect-box">
+        <h1 class="subhead">RESEARCH</h1>
+        <div class="paragraph">
+          <p>
+            My current research interest is in 3D computer vision.
+            We live in a 3D world, and I am thrilled to understand it, and to recreate it.
+            Previously I also worked on quantum information technologies.
+            I serve as a reviewer for Journal TNNLS.
+          </p>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://sarahweiii.github.io/zerorf/">
+                <img src="/paper-teasers/zerorf.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                ZeroRF: Fast Sparse View 360° Reconstruction with Zero Pretraining
+              </p>
+              <p class="pt-1 text-sm italic">
+                <span class="font-bold">Ruoxi Shi*</span>, Xinyue Wei*, Cheng Wang, Hao Su
+              </p>
+              <p class="pt-1 text-sm">
+                CVPR'24
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                DIP-like convolutional prior for sparse-view NeRFs.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="http://arxiv.org/pdf/2312.09249">Paper</a>
+                <a href="https://github.com/eliphatfs/zerorf">Code</a>
+                <a href="https://sarahweiii.github.io/zerorf/">Project Page</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://sudo-ai-3d.github.io/One2345plus_page">
+                <img src="/paper-teasers/one2345pp.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                One-2-3-45++: Fast single image to 3d objects with consistent multi-view generation and 3d diffusion
+              </p>
+              <p class="pt-1 text-sm italic">
+                Minghua Liu*, <span class="font-bold">Ruoxi Shi*</span>, Linghao Chen*, Zhuoyang Zhang*, Chao Xu*, Xinyue Wei, Hansheng Chen, Chong Zeng, Jiayuan Gu, Hao Su
+              </p>
+              <p class="pt-1 text-sm">
+                CVPR'24
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                3D generation pipeline based on decomposed stages: multi-view generation, feed-forward sparse-view reconstruction and texture refinement.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2311.07885.pdf">Paper</a>
+                <a href="https://www.sudo.ai/3dgen">Demo</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://github.com/SUDO-AI-3D/zero123plus">
+                <img src="/paper-teasers/zp.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                Zero123++: A Single Image to Consistent Multi-view Diffusion Base Model
+              </p>
+              <p class="pt-1 text-sm italic">
+                <span class="font-bold">Ruoxi Shi</span>, Hansheng Chen, Zhuoyang Zhang, Minghua Liu, Chao Xu, Xinyue Wei, Linghao Chen, Chong Zeng, Hao Su
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                Careful designs on Stable Diffusion for high-quality consistent multi-view generation from single image input.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2310.15110.pdf">Report</a>
+                <a href="https://github.com/SUDO-AI-3D/zero123plus">Code</a>
+                <a href="https://huggingface.co/spaces/sudo-ai/zero123plus-demo-space">Demo</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://colin97.github.io/OpenShape/">
+                <img src="/paper-teasers/openshape.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding
+              </p>
+              <p class="pt-1 text-sm italic">
+                Minghua Liu*, <span class="font-bold">Ruoxi Shi*</span>, Kaiming Kuang*, Yinhao Zhu, Xuanlin Li, Shizhong Han, Hong Cai, Fatih Porikli, Hao Su
+              </p>
+              <p class="pt-1 text-sm">
+                NIPS'23
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                3D native VLM.
+                85.3% zero-shot accuracy on ModelNet40 matching some fully-supervised baselines.
+                77% top-5 accuracy on 1136-class Objaverse-LVIS.
+                The point cloud encoder can also be used for captioning, point cloud-conditioned image generation
+                and multi-modal retrieval.
+                It is a great step towards open-world understanding of 3D shapes.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2305.10764.pdf">Paper</a>
+                <a href="https://github.com/Colin97/OpenShape_code">Code</a>
+                <a href="https://huggingface.co/OpenShape">Demo</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="#">
+                <img src="/paper-teasers/geo-concept.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                Toward Learning Geometric Eigen-Lengths Crucial for Fitting Tasks
+              </p>
+              <p class="pt-1 text-sm italic">
+                Yijia Weng, Kaichun Mo, <span class="font-bold">Ruoxi Shi</span>, Yanchao Yang, Leonidas Guibas
+              </p>
+              <p class="pt-1 text-sm">
+                ICML'23
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                Humans can find compact and meaningful geometric concepts (width, radius, volume etc.) as summaries for objects.
+                In this work we attempt to arm machines with the same capability of conceptual emergence
+                and explore how this may help with robotic tasks.
+              </p>
+              <!-- <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2305.10764.pdf">Paper</a>
+                <a href="https://github.com/Colin97/OpenShape_code">Code</a>
+                <a href="https://huggingface.co/OpenShape">Demo</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://arxiv.org/abs/2206.10066">
+                <img src="/paper-teasers/rendnet.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                RendNet: Unified 2D/3D Recognizer with Latent Space Rendering
+              </p>
+              <p class="pt-1 text-sm italic">
+                <span class="font-bold">Ruoxi Shi</span>, Xinyang Jiang, Caihua Shan, Yansen Wang, Dongsheng Li
+              </p>
+              <p class="pt-1 text-sm">
+                CVPR'22 (Oral)
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                VG (Vector Graphics) have been ubiquitous in our daily life with vast applications
+                in engineering, architecture, designs, etc.
+                We connect VG and RG (Raster Graphics) with a latent space rendering technique to get the best of both worlds:
+                the infinite resolution and high-level topology information in VG,
+                and the availability and natural error filtering in RG.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2206.10066">Paper</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://arxiv.org/abs/2203.03089">
+                <img src="/paper-teasers/cppf.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild
+              </p>
+              <p class="pt-1 text-sm italic">
+                Yang You, <span class="font-bold">Ruoxi Shi</span>, Weiming Wang, Cewu Lu
+              </p>
+              <p class="pt-1 text-sm">
+                CVPR'22
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                By aggregating votes on pairs of local small patches,
+                the deep learning models are more robust and generalizes better.
+                The sim-to-real transfer performance of pose estimation of CPPF beats
+                previous methods by a large margin.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2203.03089.pdf">Paper</a>
+                <a href="https://github.com/qq456cvb/CPPF">Code</a>
+                <a href="https://qq456cvb.github.io/projects/cppf">Project Page</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://arxiv.org/abs/2103.10814">
+                <img src="/paper-teasers/merger.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                Skeleton Merger: an Unsupervised Aligned Keypoint Detector
+              </p>
+              <p class="pt-1 text-sm italic">
+                <span class="font-bold">Ruoxi Shi</span>, Zhengrong Xue, Yang You, Cewu Lu
+              </p>
+              <p class="pt-1 text-sm">
+                CVPR'21 (Oral)
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                Detecting aligned 3D keypoints is essential under many scenarios such as object tracking,
+                shape retrieval and robotics.
+                However, it is generally hard to prepare a high-quality dataset for all types of objects
+                due to the ambiguity of keypoint itself.
+                Meanwhile, current unsupervised detectors are unable to generate aligned keypoints with good coverage.
+                In this work we design SkeletonMerger, an auto-encoder architecture based on the skeleton representation,
+                to detect aligned keypoints from objects in an unsupervised manner.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2103.10814">Paper</a>
+                <a href="https://github.com/eliphatfs/SkeletonMerger">Code</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://arxiv.org/abs/2102.12093">
+                <img src="/paper-teasers/sprin.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                PRIN/SPRIN: On Extracting Point-Wise Rotation Invariant Features
+              </p>
+              <p class="pt-1 text-sm italic">
+                Yang You*, Yujing Lou*, <span class="font-bold">Ruoxi Shi</span>, Qi Liu, Yu-Wing Tai, Lizhuang Ma, Weiming Wang, Cewu Lu
+              </p>
+              <p class="pt-1 text-sm">
+                TPAMI'21
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                SO(3) rotation invariance is an interesting property of 3D geometry.
+                We present the networks (S)PRIN (Sparse Point-wise Rotation Invariant Networks) based on SO(3) group convolution.
+                They achieve state-of-the-art results on rotation-invariant representation learning.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://arxiv.org/pdf/2102.12093.pdf">Paper</a>
+                <a href="https://github.com/qq456cvb/SPRIN">Code</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://tensorworkshop.github.io/NeurIPS2020/accepted_papers/simptnet_cameraready_v2.pdf">
+                <img src="/paper-teasers/qpointnet.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                Training a Quantum PointNet with Nesterov Accelerated Gradient Estimation by Projection
+              </p>
+              <p class="pt-1 text-sm italic">
+                <span class="font-bold">Ruoxi Shi</span>, Hao Tang, Xian-Min Jin
+              </p>
+              <p class="pt-1 text-sm">
+                NIPS QTNML Workshop'21
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                PointNet implemented with quantum circuits with special designs
+                that provide exponential speed-up on the per-point layers.
+                Quantum PointNet is tested on Ion-Q processors with ModelNet3 accuracy on-par with classical PointNet.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://tensorworkshop.github.io/NeurIPS2020/accepted_papers/simptnet_cameraready_v2.pdf">Paper</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-6">
+            <div class="col-span-2 p-1 my-auto">
+              <a href="https://www.sciencedirect.com/science/article/pii/S2095927320305880">
+                <img src="/paper-teasers/qpr.jpg" class="w-full">
+              </a>
+            </div>
+            <div class="col-span-4 pl-5 pr-1 my-auto text-left">
+              <p class="font-bold">
+                TensorFlow Solver for Quantum PageRank in Large-Scale Networks
+              </p>
+              <p class="pt-1 text-sm italic">
+                Hao Tang*, <span class="font-bold">Ruoxi Shi*</span>, TianShen He*, YanYan Zhu, TianYu Wang, Marcus Lee, XianMin Jin
+              </p>
+              <p class="pt-1 text-sm">
+                Science Bulletin'21
+              </p>
+              <p class="pt-1 text-sm text-justify">
+                Quantum Stochastic Walk (QSW), of which the Quantum PageRank algorithm is based on,
+                is a foundamental formulation of quantum many-body interaction with strong local restriction fields.
+                In this work we reformulate the QSW master equation to utilize more structure of the problem
+                and develop a simulator that fully leverages the power of GPU parallel computation.
+                We achieved 500x lower memory consumption and 2000x speed-up quantum page-ranking
+                a real-world large-scale network of airports.
+              </p>
+              <p class="pt-1 anchor-inline text-sm main-color-b">
+                <a href="https://www.sciencedirect.com/science/article/pii/S2095927320305880">Paper</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="graphics-lane" class="sect-lane bg-frag">
+      <div class="sect-box">
+        <h1 class="subhead">GRAPHICS</h1>
+        <div class="paragraph px-2">
+          <p>
+            I am interested but admittedly untalented in visual arts.
+            As such, I decide to use my knowledge in 3D to do 3D CG artworks.
+          </p>
+        </div>
+        <div class="paragraph">
+          <img src="/cg/hikari-xmas.jpg" alt="Hikari CG, created in celebration of Christmas" />
+          <p class="pt-4 italic px-2">
+            'Delightful!'
+          </p>
+          <p class="pt-2 px-2">
+            This is my favorite work so far.
+            I did the modeling of the character, design of the scene and the rendering.
+          </p>
+          <p class="pt-2 px-2 anchor-inline">
+            I am currently producing <a href="https://www.bilibili.com/video/BV1HM4y1C7gb/" class="italic">an animation series</a> based on the story of Arcaea in my spare time.
+            It is by no means easy to produce animation even with the latest production technologies at hand,
+            but I feel good doing it.
+          </p>
+          <div class="pt-4 grid grid-cols-2">
+            <a href="https://www.bilibili.com/video/BV1HM4y1C7gb/">
+              <img src="/cg/tairitsu-03.jpg" class="p-1 my-auto" alt="Tairitsu is lying on the ground of an ancient bell tower" />
+            </a>
+            <img src="/cg/hikari-thinker.jpg" class="p-1 my-auto" alt="Hikari sitting on a glass bench, silent in thoughts" />
+            <img src="/cg/castle.jpg" class="p-1 my-auto" alt="Cartoonish castle at night" />
+            <img src="/cg/tairitsu-prequest.jpg" class="p-1 my-auto" alt="Tairitsu is sitting before an oracle mountain in a snowstorm" />
+          </div>
+          <div class="pt-2">
+            <img id="bg-img" src="/cg/church.jpg" alt="A picture of a church" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="engineering-lane" class="sect-lane">
+      <div class="sect-box">
+        <h1 class="subhead">ENGINEERING</h1>
+        <div class="paragraph">
+          <p>
+            As I said before, I like to explore random things that pique my curiosity.
+            Consequently, I have a bunch of side projects and achievements that somehow came together (plus actually may be unexpected).
+          </p>
+        </div>
+        <div class="paragraph">
+          <!-- <div class="grid grid-cols-3"> -->
+            <!-- <div class="p-1 my-auto col-span-2"> -->
+              <a href="https://paradigm.tunergames.com/">
+                <img src="/side/paradigm.jpg" class="w-full">
+              </a>
+            <!-- </div> -->
+            <div class="paragraph text-center">
+              <p class="anchor-inline">
+                I am the lead programmer of the rhythm game
+                <a href="https://paradigm.tunergames.com/"><span class="font-bold">Paradigm: Reboot</span></a>.
+              </p>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="paragraph">
+          <!-- <div class="grid grid-cols-3"> -->
+            <!-- <div class="p-1 my-auto col-span-2"> -->
+              <a href="https://oooverflow.io/dc-ctf-2020-finals/">
+                <img src="/side/dc28.jpg" class="w-full">
+              </a>
+            <!-- </div> -->
+            <div class="paragraph text-center">
+              <p class="anchor-inline">
+                Championship of DEFCON CTF 28 (2020) as a member of A*0*E.
+              </p>
+              <p class="anchor-inline">
+                I guess I have some talent for security, but I don't like taking it as a major or a job.
+              </p>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="paragraph">
+          <a>
+            <img src="/side/fs49.jpg" class="w-full">
+          </a>
+          <div class="paragraph text-center">
+            <p class="anchor-inline">
+              I am founder and programmer of the Terraria mod <span class="italic">Fourty-nine Fallen Stars</span>.
+            </p>
+            <p class="anchor-inline text-justify pt-2">
+              Arguably my first project, and the initial motivation of learning programming.
+              It started with doing everything from art, design to implementation myself. Later I got comrades.
+              We did a good job and had several thousand players.
+              Though due to various reasons the mod is no longer maintained,
+              it left us with lots of wonderful memories.
+            </p>
+          </div>
+          <div>
+            <p>
+              Beyond these projects and achievements, I also developed many hobbist projects.
+              Here are a few that I am most proud of:
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://github.com/eliphatfs/calibur">calibur</a>
+            </p>
+            <p class="pt-2">
+              A sword against the inconsistent and ambiguous conventions (camera poses, viewport origins, etc.).
+              A missing toolkit for CG/CV/Robotics.
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://github.com/eliphatfs/torch.redstone">torch.redstone</a>
+            </p>
+            <p class="pt-2">
+              A lightweight library that helps to boost productivity using PyTorch by providing utilities like
+              MLP, automatic mixed-precision and polyfills as well as a training loop that is highly customizable.
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://github.com/eliphatfs/apt-local-install">aptli</a>
+            </p>
+            <p class="pt-2">
+              Tool for installing apt packages without root permission in local space.
+              The name 'aptli' is short for 'apt local install'.
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://github.com/eliphatfs/yapyjit">yapyjit</a>
+            </p>
+            <p class="pt-2">
+              Yet Another Python JIT compiler.
+              I have implemented a method-based JIT.
+              However, due to the extreme dynamicism in Python,
+              I find it impossible to do some optimizations on method level.
+              Thus, I am now writing a trace-based JIT.
+              Currently the tracing infrastructure is done,
+              but I have hardly begun with the compiler and the mode switching parts.
+              Writing a compiler is labor-intensive, and
+              I do not have that much energy for this project recently.
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://skis.flandre.info">SKIS</a>
+            </p>
+            <p class="pt-2">
+              SKIS is a collection of toolkit infrastructure services.
+              The trinity of distributed system: Computation, Storage and Communication.
+              Computation and Storage are in general local, but communication is not.
+              Thus, SKIS seeks to provide only the communication part as a service.
+              It includes a markdown pastebin and a general data pipe.
+              I plan to add a service management portal for non-communication services.
+            </p>
+            <p class="pt-4 anchor-inline font-bold text-xl">
+              <a href="https://github.com/eliphatfs/PointCloudVisualizer">Point Cloud Visualizer</a>
+            </p>
+            <p class="pt-2">
+              Actually a side product when writing the Skeleton Merger paper.
+              At CVPR someone came up to me like 'oh the visualization is awesome how did you do that?'
+              As a consequence, I cleaned up the code and built this feature-rich visualization interface.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="music-lane" class="sect-lane bg-frag">
+      <div class="sect-box">
+        <h1 class="subhead">MUSIC</h1>
+        <div class="paragraph">
+          <p>
+            I love music.
+          </p>
+          <p class="pt-2">
+            My world will be a lot duller without music decorating every corner of my life,
+            from BGM at work to composition.
+            I started playing the violin when I was 7.
+            I was a core member of SHS orchestra, and performed at several public concerts.
+            When learning composition I also self-taught very basic and limited piano and flute playing.
+          </p>
+          <p class="pt-2 anchor-inline">
+            <a href="https://fragmentatia.tumblr.com/" class="italic">ak+q</a> is my favorite artist.
+            He is so good at chord progressions.
+            Lively or lush, chill or splendor. All so great.
+            His pieces leave me with an impression that they are breathing.
+          </p>
+        </div>
+        <div class="paragraph">
+          <p class="font-bold text-xl">
+            Composition Pieces
+          </p>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-1 md:grid-cols-2 pl-3">
+            <p class="pb-4">
+              Departure
+              <audio controls class="pt-2">
+                <source src="/tracks/departure.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+            <p class="pb-4">
+              Dispersion
+              <audio controls class="pt-2">
+                <source src="/tracks/dispersion.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+            <p class="pb-4">
+              Forest Enoch
+              <audio controls class="pt-2">
+                <source src="/tracks/forest-enoch.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p class="font-bold text-xl">
+            Remix Pieces
+          </p>
+        </div>
+        <div class="paragraph">
+          <div class="grid grid-cols-1 md:grid-cols-2 pl-3">
+            <p class="pb-4">
+              Merry Chistmas
+              <audio controls class="pt-2">
+                <source src="/tracks/xmas.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+            <p class="pb-4">
+              Never Gonna Give You Up
+              <audio controls class="pt-2">
+                <source src="/tracks/ricaea.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+            <p class="pb-4">
+              Lost Dream
+              <audio controls class="pt-2">
+                <source src="/tracks/lost-dream.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+            <p class="pb-4">
+              The Cursed Flames
+              <audio controls class="pt-2">
+                <source src="/tracks/the-cursed-flames.mp3" type="audio/mpeg" />
+              </audio>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
